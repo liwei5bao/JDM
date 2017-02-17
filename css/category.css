@@ -1,0 +1,77 @@
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+/* 分类的主题大盒子 */
+.jd_category{
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+    position: relative;
+}
+
+/* 左边的布局 */
+.jd_category .jd_category_left{
+    position: absolute;
+    width: 90px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 45px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.jd_category_left .jd_category_left_box{
+    width: 90px;
+}
+
+.jd_category_left .jd_category_left_box ul li{
+    background: #f3f4f6;
+}
+
+.jd_category_left .jd_category_left_box ul li a{
+    font-size: 12px;
+    font-family: sans-serif;
+    height: 50px;
+    width: 90px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.jd_category_left .jd_category_left_box ul li.now{
+    background: #fff;
+}
+
+.jd_category_left .jd_category_left_box ul li.now a{
+    border-right: none;
+    color: #f15353;
+}
+
+/*右边的布局*/
+.jd_category .jd_category_right{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-left: 90px;
+    overflow: hidden;
+}
+
+.jd_category_right .jd_category_right_box .r_banner{
+    width: 100%;
+}
+
+.jd_category_right .jd_category_right_box{
+    padding: 10px 12px;
+}
+
+.jd_category_right .jd_category_right_box .r_banner a img{
+    width: 100%;
+}
