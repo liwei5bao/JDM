@@ -167,4 +167,182 @@ body{
 }
 
 /* 商品主题区块 */
+.jd_product{
+    margin: 0 auto;
+}
 
+/* 公共区域模块 */
+.jd_product>.jd_product_box{
+    box-shadow: 0 0 1px 1px #e0e0e0;
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+.jd_product > .jd_product_box > .product_top{
+    height: 32px;
+    position: relative;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.jd_product > .jd_product_box > .product_top.no_bor{
+    border-bottom: none;
+}
+
+.jd_product > .jd_product_box > .product_top h3{
+    font-size: 15px;
+    color: #666;
+    line-height: 32px;
+    padding-left: 15px;
+    font-weight: inherit;
+}
+
+.jd_product > .jd_product_box > .product_top h3::before{
+    content: "";
+    display: block;
+    width: 3px;
+    height: 12px;
+    background: #d8505c;
+
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+/* */
+.jd_secondKill .jd_secondKill_left{
+    float: left;
+    line-height: 32px;
+}
+
+.jd_secondKill .jd_secondKill_left .sk_icon{
+    display: block;
+    background: url('../images/seckill-icon.png') no-repeat;
+    background-size: 16px 20px;
+    width: 16px;
+    height: 20px;
+
+    float: left;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+.jd_secondKill .jd_secondKill_left .sk_name{
+    float: left;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: inherit;
+    color: #d8505c;
+    margin-left: 5px;
+}
+
+.jd_secondKill .jd_secondKill_left .sk_time{
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.jd_secondKill .jd_secondKill_left .sk_time .num{
+    display: block;
+    float: left;
+    color: #fff;
+    background: #333;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    margin-left: 3px;
+}
+
+.jd_secondKill .jd_secondKill_left .sk_time .str{
+    display: block;
+    float: left;
+    color: #333;
+    background: transparent;
+    width: 3px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    margin-left: 3px;
+}
+.jd_secondKill .jd_secondKill_right{
+    float: right;
+    line-height: 32px;
+    margin-right: 5px;
+}
+
+.jd_secondKill .product_bot{
+    width: 100%;
+}
+
+.jd_secondKill .product_bot ul{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.jd_secondKill .product_bot ul li{
+    float: left;
+    width: 33.333%;
+}
+
+.jd_secondKill .product_bot ul li a{
+
+    width: 100%;
+}
+
+.jd_secondKill .product_bot ul li a .img_box{
+     width: 100%;
+     border-right: 1px solid #e0e0e0;
+}
+.jd_secondKill .product_bot ul li:last-child a .img_box{
+    border-right: none;
+}
+
+.jd_secondKill .product_bot ul li a .img_box img{
+    width: 64%;
+    margin: 0 auto;
+    display: block;
+}
+.jd_secondKill .product_bot ul li a .now_price{
+    font-size: 13px;
+    color: #d8505c;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.jd_secondKill .product_bot ul li a .old_price{
+    font-size: 13px;
+    text-decoration: line-through;
+    margin-top: 3px;
+    color: #888;
+    text-align: center;
+}
+
+/* 商品 */
+.jd_product .jd_pd .product_bot{
+    width: 100%;
+}
+
+.jd_product .jd_pd .product_bot .p_left{
+    float: left;
+    width: 50%;
+}
+
+.jd_product .jd_pd .product_bot .p_right{
+    float: right;
+    width: 50%;
+}
+.jd_product .jd_pd .product_bot .b_bottom{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.jd_product .jd_pd .product_bot .b_left{
+     border-left: 1px solid #e0e0e0;
+}
+
+.jd_product .jd_pd .product_bot .b_right{
+    border-right: 1px solid #e0e0e0;
+}
+
+.jd_product .jd_pd .product_bot a img{
+    width: 100%;
+    display: block;
+}

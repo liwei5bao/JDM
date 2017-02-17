@@ -12,16 +12,15 @@
     <div class="jd_layout">
         <!-- 头部搜索 -->
         <header class="jd_header">
-            <div class="jd_header_box">
-                <a href="#" class="icon_logo"></a>
-                <form action="#">
-                    <span class="icon_search"></span>
-                    <input type="search" class="search" placeholder="提示"/>
-                </form>
-                <a href="#" class="login">登录</a>
-            </div>
-        </header>
-
+        <div class="jd_header_box">
+            <a href="#" class="icon_logo"></a>
+            <form action="#">
+                <span class="icon_search"></span>
+                <input type="search" class="search" placeholder="提示"/>
+            </form>
+            <a href="#" class="login">登录</a>
+        </div>
+    </header>
         <!-- 轮播图 -->
         <div class="jd_banner">
             <ul class="clearfix">
@@ -101,11 +100,11 @@
         <!-- 商品区块 -->
         <main class="jd_product">
             <section class="jd_product_box jd_secondKill">
-                <div class="product_top">
-                    <div class="jd_secondKill_left">
+                <div class="product_top no_bor clearfix">
+                    <div class="jd_secondKill_left clearfix">
                         <span class="sk_icon"></span>
                         <h4 class="sk_name">掌上秒杀</h4>
-                        <div class="sk_time">
+                        <div class="sk_time clearfix">
                             <span class="num">0</span>
                             <span class="num">0</span>
                             <span class="str">:</span>
@@ -146,8 +145,30 @@
                     </ul>
                 </div>
             </section>
-        </main>
 
+            <!-- 超值购 -->
+            <section class="jd_product_box jd_pd">
+                <div class="product_top">
+                    <h3>超值购</h3>
+                </div>
+                <div class="product_bot clearfix">
+                    <a href="" class="p_left b_right"><img src="images/cp1.jpg" alt=""/></a>
+                    <a href="" class="p_right b_bottom"><img src="images/cp2.jpg" alt=""/></a>
+                    <a href="" class="p_right"><img src="images/cp3.jpg" alt=""/></a>
+                </div>
+            </section>
+            <section class="jd_product_box jd_pd">
+                <div class="product_top">
+                    <h3>热门活动</h3>
+                </div>
+                <div class="product_bot clearfix">
+                    <a href="" class="p_right b_left"><img src="images/cp4.jpg" alt=""/></a>
+                    <a href="" class="p_left b_bottom"><img src="images/cp5.jpg" alt=""/></a>
+                    <a href="" class="p_left"><img src="images/cp6.jpg" alt=""/></a>
+                </div>
+            </section>
+
+        </main>
     </div>
 </body>
 </html>
