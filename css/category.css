@@ -71,3 +71,34 @@ body{
 .jd_category_right .jd_category_right_box .r_banner a img{
     width: 100%;
 }
+
+.jd_category_right .jd_category_right_box .r_product{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.jd_category_right .jd_category_right_box .r_product h3{
+    color: #888;
+    margin-bottom: 12px;
+}
+
+.jd_category_right .jd_category_right_box .r_product ul{
+    width: 100%;
+}
+
+.jd_category_right .jd_category_right_box .r_product ul li{
+    width: 33.333%;
+    text-align: center;
+    float: left;
+}
+
+.jd_category_right .jd_category_right_box .r_product ul li img{
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+}
+
+.jd_category_right .jd_category_right_box .r_product ul li p{
+    line-height: 30px;
+}
