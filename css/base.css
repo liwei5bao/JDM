@@ -58,6 +58,14 @@ input,textarea{
     z-index: 1000;
 }
 
+.jd_topBar h2{
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: inherit;
+    line-height: 44px;
+}
+
 .jd_topBar .icon_back{
     background-position: -20px 0;
     width: 20px;
