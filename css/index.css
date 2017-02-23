@@ -26,7 +26,7 @@ body{
     height: 40px;
     margin: 0 auto;
     position: relative;
-    background: rgba(201,21,35,0.85);
+    background: rgba(201,21,35,0);
 }
 
 .jd_header>.jd_header_box>.icon_logo{
@@ -87,11 +87,13 @@ body{
 }
 
 .jd_banner>ul:first-child{
-    width: 800%;
+    width: 1000%;
+    transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
 }
 
 .jd_banner>ul:first-child>li{
-    width: 12.5%;
+    width: 10%;
     float: left;
 }
 
@@ -122,7 +124,7 @@ body{
     margin-left: 0;
 }
 
-.jd_banner>ul:last-child>li:last-child{
+.jd_banner>ul:last-child>.current{
     background-color: #e0e0e0;
 }
 
