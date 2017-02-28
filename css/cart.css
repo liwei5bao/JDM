@@ -288,6 +288,7 @@ body{
     height: 100%;
     background-color: rgba(0,0,0,0.4);
     z-index: 1001;
+    display: none;
 }
 
 .jd_win .jd_win_box{
@@ -295,8 +296,9 @@ body{
     border: 1px solid #e0e0e0;
     border-radius: 4px;
     background-color: #ffffff;
-    margin: 20px auto;
+    margin: 40% auto;
     padding: 0 5%;
+
 }
 
 .jd_win .jd_win_box .jd_win_text{
@@ -334,4 +336,36 @@ body{
     color: #ffffff;
     text-align: center;
     line-height: 36px;
+}
+
+
+/* 遮盖层跳出动画 */
+@-webkit-keyframes jumpOut {
+    0%{
+         opacity: 0;
+         transform: translateY(-2000px);
+         -webkit-transform: translateY(-2000px);
+     }
+    60%{
+        opacity: 1;
+        transform: translateY(30px);
+        -webkit-transform: translateY(30px);
+    }
+    0%{
+        transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+    }
+    0%{
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+    }
+    0%{
+        opacity: 1;
+        transform: none;
+        -webkit-transform: none;
+    }
+}
+
+.jumpout{
+    animation: jumpOut 1s ease;
 }
